@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public class MathQuizForm : Form
+    public partial class MatemaatilineMangForm : Form
     {
         private Label siltAeg;
         private Button nuppAlusta;
@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
 
         private int aegaJaanud;
 
-        public MathQuizForm()
+        public MatemaatilineMangForm()
         {
            
             this.Text = "Matemaatiline mäng";

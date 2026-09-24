@@ -4,14 +4,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public class PictureViewerForm : Form
+    public partial class PildiVaatamiseForm : Form
     {
         private PictureBox pildiKast;
         private Button nuppAvaPilt;
         private Button nuppPuhasta;
         private Button nuppTaustaVarv;
 
-        public PictureViewerForm()
+        public PildiVaatamiseForm()
         {
             
             this.Text = "Pildi vaatamise programm";
