@@ -46,25 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MatchingGameForm.cs">
+    <Compile Include="SarnastePiltideMangForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MatchingGameForm.Designer.cs">
-      <DependentUpon>MatchingGameForm.cs</DependentUpon>
+    <Compile Include="SarnastePiltideMangForm.Designer.cs">
+      <DependentUpon>SarnastePiltideMangForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main_Vorm.cs">
+    <Compile Include="Avavorm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MathQuizForm.cs">
+    <Compile Include="MatemaatilineMangForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PictureViewerForm.cs">
+    <Compile Include="PildiVaatamiseForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Main_Vorm.resx">
-      <DependentUpon>Main_Vorm.cs</DependentUpon>
+    <EmbeddedResource Include="Avavorm.resx">
+      <DependentUpon>Avavorm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatemaatilineMangForm.resx">
+      <DependentUpon>MatemaatilineMangForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
